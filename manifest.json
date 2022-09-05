@@ -1,0 +1,13 @@
+{
+    "name": "Background",
+    "version": "0.0.1",
+    "description": "Background en un pagina",
+    "manifest_version": 3,
+    "autor": "anonimo",
+    "content_scripts": [
+        {
+            "css": ["style.css"],
+            "matches": ["http://plataforma.milprogramadores.com.ar/*","https://www.mercadolibre.com.ar/*"]
+        }
+    ]
+}
